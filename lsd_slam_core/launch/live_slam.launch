@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+
+ <!-- LSD_SLAM_CORE Node-->
+  <node pkg="lsd_slam_core" type="live_slam" name="LSD_SLAM" output="screen" args="image:=/logi/image_raw camera_info:=/logi/camera_info">
+  </node>
+
+</launch>

@@ -16,6 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
   image_transport
   roscpp
   rosbag
+  microstrain_3dmgx2_imu
 )
 
 find_package(Eigen REQUIRED)

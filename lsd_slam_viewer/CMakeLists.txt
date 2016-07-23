@@ -21,6 +21,7 @@ find_package(catkin REQUIRED COMPONENTS
   rosbag
   message_generation
   roslib
+  microstrain_3dmgx2_imu
 )
 
 find_package(OpenGL REQUIRED)
