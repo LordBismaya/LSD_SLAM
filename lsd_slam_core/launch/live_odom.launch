@@ -26,4 +26,7 @@
  <!-- LSD_SLAM_CORE Node-->
   <node pkg="lsd_slam_core" type="live_slam" name="LSD_SLAM" output="screen" args="image:=/logi/image_raw camera_info:=/logi/camera_info"/>
 
+ <!--IMU node launch-->
+ <include file="$(find microstrain_3dmgx2_imu)/microstrain_3dmgx2.launch" />
+ 
 </launch>
